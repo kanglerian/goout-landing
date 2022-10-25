@@ -1,0 +1,177 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  font-size: 14px;
+  text-align: center;
+}
+
+.nav-item > .active {
+  color: #466bf3 !important;
+}
+
+.nav-item {
+  margin: 8px 8px;
+  color: #9c9c9c;
+}
+
+.btn-account {
+  background-color: #466bf330;
+  color: #466bf3;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.btn-account:hover {
+  background-color: #466bf319;
+}
+
+.header {
+  background-color: #fafafa;
+  border-radius: 24px;
+  padding: 0px;
+}
+
+.img-travel {
+  border-radius: 24px;
+}
+
+.header-title {
+  font-size: 45px;
+  padding: 2px;
+}
+
+.header-subtitle {
+  color: #7b7b7b;
+  line-height: 30px;
+}
+
+.booking {
+  position: relative;
+  top: -130px;
+  padding: 0px 40px;
+}
+
+.booking-container {
+  box-shadow: 0px 25px 54px #efefef;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.booking-text h6 {
+  font-size: 14px;
+}
+
+.booking-text span {
+  font-size: 14px;
+}
+
+.booking-maps {
+  color: #3258e8;
+}
+
+.divider {
+  width: 1px;
+  height: 60px;
+  background-color: #c9c9c9;
+}
+
+.booking-action > a {
+  font-size: 14px;
+}
+
+.service-item {
+  margin: 20px;
+}
+
+.service-text p {
+  color: #7b7b7b;
+  font-size: 14px;
+}
+
+.services-container {
+  background-color: #fafafa;
+  border-radius: 24px;
+  padding: 50px;
+}
+
+.service-title {
+  color: #3258e8;
+}
+
+.package {
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.package span {
+  color: #3258e8;
+}
+
+.package p {
+  color: #7b7b7b;
+}
+
+.package-items > span {
+  color: #000000 !important;
+}
+
+.package-items > p {
+  color: #7b7b7b;
+  font-size: 14px;
+}
+
+.cover img {
+  border-radius: 18px;
+}
+
+.cover > .active {
+  padding: 10px;
+  border-radius: 18px;
+  border: 3px solid #3258e8;
+}
+
+.cover-item {
+  position: relative;
+}
+
+.cover-detail {
+  position: absolute;
+  left: 30px;
+  bottom: 15px;
+}
+
+.cover-detail h6,
+.cover-detail p {
+  color: #ffffff;
+}
+.destination-item {
+  background: #FFFFFF;
+  box-shadow: 0px 14px 25px #f2f2f2;
+  border-radius: 24px;
+}
+.dest-cover img {
+    border-radius: 18px;
+}
+
+.dest-item p {
+    font-size: 14px;
+    color: #7b7b7b;
+}
+
+.dest-item p span {
+    font-size: 18px;
+    color: #000000;
+}
+
+.dest-item button {
+    padding: 5px 24px!important;
+    border-radius: 10px;
+}
+
+.img-cover {
+    border-radius: 150px 24px 24px 24px;
+}
