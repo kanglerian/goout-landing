@@ -147,8 +147,10 @@
 .cover-detail h6,
 .cover-detail p {
   color: #ffffff;
+  font-size: 12px;
 }
 .destination-item {
+  position: relative;
   background: #FFFFFF;
   box-shadow: 0px 14px 25px #f2f2f2;
   border-radius: 24px;
@@ -176,4 +178,82 @@
     padding: 100px 0;
     text-align: center;
     border-radius: 150px 24px 24px 24px;
+}
+
+.dest-rating {
+  position: absolute;
+  color: #ffe600 !important;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 5px 10px;
+  border-radius: 10px;
+  right: 10px;
+  top: 10px;
+}
+
+.dest-rating span {
+  color: #FFFFFF;
+}
+.maps {
+  position: relative;
+  margin-bottom: 200px;
+}
+.caption {
+  position: absolute;
+  background-color: #FFFFFF;
+  box-shadow: 0px 14px 25px #F2F2F2;
+  border-radius: 24px;
+  max-width: 300px;
+  padding: 16px;
+  text-align: left;
+  left: 150px;
+  bottom: -100px;
+}
+
+.caption-rating {
+  color: #ffe600 !important;
+}
+
+.caption-text {
+  font-size: 14px;
+}
+
+.love {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  color: #FF6363;
+  transform: rotate(15deg);
+  background-color: #FFFFFF;
+  box-shadow: 0px 14px 25px #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 70px;
+  top: -30px;
+}
+
+footer {
+  position: relative;
+  background-color: #232631;
+  padding: 50px 50px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+footer ul li {
+  list-style-type: none;
+  line-height: 35px;
+  color: #9c9c9c;
+  margin-left: -30px;
+}
+
+footer .menus .active {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+footer .watermark {
+  width: 200px;
 }

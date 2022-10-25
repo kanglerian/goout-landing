@@ -39,14 +39,14 @@
                         <a class="nav-link" href="#">Hotel</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Travel Package</a>
+                        <a class="nav-link" href="#">Travel Package</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Contact Us</a>
+                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav">
-                    <a class="btn btn-account">My Account</a>
+                    <a class="btn btn-account" href="#">My Account</a>
                 </ul>
             </div>
         </div>
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="booking">
-                <div class="booking-container d-flex flex-wrap justify-content-around align-items-center">
+                <div class="booking-container d-flex flex-wrap justify-content-around align-items-center gap-4">
                     <div class="booking-item d-flex align-items-center gap-3">
                         <div class="booking-icon">
                             <i class="fa-solid fa-location-dot"></i>
@@ -85,11 +85,11 @@
                     <div class="divider"></div>
                     <div class="booking-item d-flex align-items-center gap-3">
                         <div class="booking-icon">
-                            <i class="fa-solid fa-location-dot"></i>
+                            <i class="fa-regular fa-calendar"></i>
                         </div>
                         <div class="booking-text">
-                            <span class="fw-normal">NTB, Lombok</span><br>
-                            <span class="fw-light">Select the locations</span>
+                            <span class="fw-normal">9 Juni 2022</span><br>
+                            <span class="fw-light">Choose Flight Date</span>
                         </div>
                         <div class="booking-maps">
                             <i class="fa-solid fa-location-crosshairs"></i>
@@ -98,11 +98,11 @@
                     <div class="divider"></div>
                     <div class="booking-item d-flex align-items-center gap-3">
                         <div class="booking-icon">
-                            <i class="fa-solid fa-location-dot"></i>
+                            <i class="fa-solid fa-ticket"></i>
                         </div>
                         <div class="booking-text">
-                            <span class="fw-normal">NTB, Lombok</span><br>
-                            <span class="fw-light">Select the locations</span>
+                            <span class="fw-normal">Economy</span><br>
+                            <span class="fw-light">Choose Flight type</span>
                         </div>
                         <div class="booking-maps">
                             <i class="fa-solid fa-location-crosshairs"></i>
@@ -187,18 +187,18 @@
                                 <h6>Greatest Tower</h6>
                                 <p><i class="fa-solid fa-location-dot"></i> Bali, Indonesia</p>
                             </div>
-                            <img src="./img/foto.jpg" alt="">
+                            <img src="./img/foto.jpg" alt="" class="img-fluid">
                         </div>
                         <div class="cover-item">
-                            <img src="./img/foto.jpg" alt="">
+                            <img src="./img/foto.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <span class="fw-reguler d-inline-block mb-3">Our Package</span>
+                <div class="col-md-6 p-4">
+                    <span class="fw-reguler d-inline-block my-3">Our Package</span>
                     <h4 class="fw-bold mb-3">Popular Trip Packages</h4>
                     <p>A new way to travel by air the easy and fast way. Try it now by filling out the form below!</p>
-                    <div class="d-flex gap-5 mt-4">
+                    <div class="d-flex flex-wrap gap-3 mt-4">
                         <div class="package-items">
                             <span class="fw-reguler">120+</span>
                             <p>Destination</p>
@@ -222,22 +222,26 @@
     </section>
     <section class="destination">
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mb-4">
+            <div class="row justify-content-center">
+                <div class="col-10 text-center mb-4">
                     <h3 class="fw-bold">Explore Natural Destinations</h3>
                     <p>A new way to travel by air the easy and fast way. Try it now by filling out the form below!</p>
                 </div>
                 <div class="col-12">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="col-md-3">
                             <div class="destination-item mb-4">
+                                <div class="dest-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
                                 <div class="dest-cover">
                                     <img src="./img/images.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="dest-item p-4">
                                     <h6 class="fw-bold">Watefall Haven</h6>
                                     <p><i class="fa-solid fa-location-dot"></i> selajan, Iceland</p>
-                                    <div class="d-flex justify-content-between align-items-start">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-start">
                                         <p><span class="fw-semibold">$9</span>/person</p>
                                         <button class="btn btn-primary btn-sm">Book</button>
                                     </div>
@@ -246,13 +250,17 @@
                         </div>
                         <div class="col-md-3">
                             <div class="destination-item mb-4">
+                                <div class="dest-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
                                 <div class="dest-cover">
                                     <img src="./img/images.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="dest-item p-4">
                                     <h6 class="fw-bold">Watefall Haven</h6>
                                     <p><i class="fa-solid fa-location-dot"></i> selajan, Iceland</p>
-                                    <div class="d-flex justify-content-between align-items-start">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-start">
                                         <p><span class="fw-semibold">$9</span>/person</p>
                                         <button class="btn btn-primary btn-sm">Book</button>
                                     </div>
@@ -261,13 +269,17 @@
                         </div>
                         <div class="col-md-3">
                             <div class="destination-item mb-4">
+                                <div class="dest-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
                                 <div class="dest-cover">
                                     <img src="./img/images.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="dest-item p-4">
                                     <h6 class="fw-bold">Watefall Haven</h6>
                                     <p><i class="fa-solid fa-location-dot"></i> selajan, Iceland</p>
-                                    <div class="d-flex justify-content-between align-items-start">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-start">
                                         <p><span class="fw-semibold">$9</span>/person</p>
                                         <button class="btn btn-primary btn-sm">Book</button>
                                     </div>
@@ -276,13 +288,17 @@
                         </div>
                         <div class="col-md-3">
                             <div class="destination-item mb-4">
+                                <div class="dest-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
                                 <div class="dest-cover">
                                     <img src="./img/images.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="dest-item p-4">
                                     <h6 class="fw-bold">Watefall Haven</h6>
                                     <p><i class="fa-solid fa-location-dot"></i> selajan, Iceland</p>
-                                    <div class="d-flex justify-content-between align-items-start">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-start">
                                         <p><span class="fw-semibold">$9</span>/person</p>
                                         <button class="btn btn-primary btn-sm">Book</button>
                                     </div>
@@ -291,13 +307,17 @@
                         </div>
                         <div class="col-md-3">
                             <div class="destination-item mb-4">
+                                <div class="dest-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
                                 <div class="dest-cover">
                                     <img src="./img/images.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="dest-item p-4">
                                     <h6 class="fw-bold">Watefall Haven</h6>
                                     <p><i class="fa-solid fa-location-dot"></i> selajan, Iceland</p>
-                                    <div class="d-flex justify-content-between align-items-start">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-start">
                                         <p><span class="fw-semibold">$9</span>/person</p>
                                         <button class="btn btn-primary btn-sm">Book</button>
                                     </div>
@@ -306,13 +326,17 @@
                         </div>
                         <div class="col-md-3">
                             <div class="destination-item mb-4">
+                                <div class="dest-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
                                 <div class="dest-cover">
                                     <img src="./img/images.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="dest-item p-4">
                                     <h6 class="fw-bold">Watefall Haven</h6>
                                     <p><i class="fa-solid fa-location-dot"></i> selajan, Iceland</p>
-                                    <div class="d-flex justify-content-between align-items-start">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-start">
                                         <p><span class="fw-semibold">$9</span>/person</p>
                                         <button class="btn btn-primary btn-sm">Book</button>
                                     </div>
@@ -321,13 +345,17 @@
                         </div>
                         <div class="col-md-3">
                             <div class="destination-item mb-4">
+                                <div class="dest-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
                                 <div class="dest-cover">
                                     <img src="./img/images.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="dest-item p-4">
                                     <h6 class="fw-bold">Watefall Haven</h6>
                                     <p><i class="fa-solid fa-location-dot"></i> selajan, Iceland</p>
-                                    <div class="d-flex justify-content-between align-items-start">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-start">
                                         <p><span class="fw-semibold">$9</span>/person</p>
                                         <button class="btn btn-primary btn-sm">Book</button>
                                     </div>
@@ -336,13 +364,17 @@
                         </div>
                         <div class="col-md-3">
                             <div class="destination-item mb-4">
+                                <div class="dest-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
                                 <div class="dest-cover">
                                     <img src="./img/images.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="dest-item p-4">
                                     <h6 class="fw-bold">Watefall Haven</h6>
                                     <p><i class="fa-solid fa-location-dot"></i> selajan, Iceland</p>
-                                    <div class="d-flex justify-content-between align-items-start">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-start">
                                         <p><span class="fw-semibold">$9</span>/person</p>
                                         <button class="btn btn-primary btn-sm">Book</button>
                                     </div>
@@ -361,6 +393,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
+                    <div class="love">
+                        <i class="fa-solid fa-heart fa-2x"></i>
+                    </div>
+                    <div class="caption">
+                        <div class="caption-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="my-3">Thank you for helping my vacation. Amazing!</p>
+                        <div class="caption-profile d-flex gap-3 align-items-center">
+                            <img src="./img/profile.png" alt="" class="rounded-circle" height="54px">
+                            <div class="caption-text">
+                                <span>Sova Nerds</span><br>
+                                <span>Backpacker</span>
+                            </div>
+                        </div>
+                    </div>
                     <div class="maps-detail" style="background-image: url('./img/maps.svg');">
                         <span>New User</span>
                         <h1>Dont Miss The 50% Discount<br>If You Register Today</h1>
@@ -371,6 +423,47 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-2">
+                    <img src="./icon/logo.svg" alt="" class="img-fluid">
+                    <p class="mt-3">Copyright © 2022. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-2">
+                    <ul class="menus">
+                        <li class="active">Pages Menus</li>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>My Account</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="menus">
+                        <li class="active">Our Product</li>
+                        <li>Booking Flight</li>
+                        <li>Booking Hotels</li>
+                        <li>Trip Package</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="menus">
+                        <li class="active">Social Media</li>
+                        <li>Twitter</li>
+                        <li>Tiktok</li>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 text-right">
+                    <div class="watermark">
+                        <img src="./img/logo-besar.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="./js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
 </body>
